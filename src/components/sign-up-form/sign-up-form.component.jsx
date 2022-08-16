@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState} from "react";
 import { 
   createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth
@@ -40,7 +40,6 @@ const SignUpForm = () => {
       }
       console.log("User creation encounters error", error);
     }
-
   };
 
   return (
